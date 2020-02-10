@@ -1,5 +1,8 @@
 # Service Service
 
+An example service to help visualize how
+a simple microservice system may function.
+
 ## Build
 
 Build the service:
@@ -24,6 +27,9 @@ curl 'http://localhost:4444/random'
 ```
 
 ## Run Chain
+
+Each service is configured to call an endpoint
+on the previous upstream service.
 
 Run these in separate terminals:
 

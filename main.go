@@ -13,7 +13,7 @@ import (
 )
 
 func main() {
-	port := flag.Int("port", 0, "Port on which to listen (default \"0\", lets the OS assign a free port)")
+	port := flag.Int("port", 0, "Port to listen on (default \"0\", lets the OS assign a free port)")
 	var upstreamUrl string
 	flag.StringVar(&upstreamUrl, "upstream", "", "a fqdn")
 	flag.Parse()
